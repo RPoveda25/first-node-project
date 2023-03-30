@@ -4,7 +4,8 @@
   "description": "This is my first project",
   "main": "app.js",
   "scripts": {
-    "ejecutar": "node app.js"
+    "start": "node src/app.js #Se ejecuta npm start",
+    "dev": "nodemon src/app.js #Se ejecuta npm start"
   },
   "keywords": [
     "first",
@@ -15,5 +16,8 @@
   "license": "ISC",
   "dependencies": {
     "colors": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
