@@ -1,0 +1,19 @@
+{
+  "name": "firstproject",
+  "version": "0.0.1",
+  "description": "This is my first project",
+  "main": "app.js",
+  "scripts": {
+    "ejecutar": "node app.js"
+  },
+  "keywords": [
+    "first",
+    "project",
+    "nodejs"
+  ],
+  "author": "RPoveda25",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
+}
